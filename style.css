@@ -1,0 +1,47 @@
+@media screen and (min-width:1200px){
+	.small{
+		display:none;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){ 
+	.small{
+		display:none;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	.small{
+		display:none;
+	}
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+	.large{
+		display:none;
+	}
+	h2{
+		font-size: 1.3rem;
+	}
+	h4{
+		font-size: 1rem;
+	}
+	a, input{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width:575px){
+	.large{
+		display:none;
+	}
+	h2{
+		font-size: 1.2rem;
+	}
+	h4{
+		font-size: 0.9rem;
+	}
+	a, input{
+		font-size: 0.9rem;
+	}
+}
